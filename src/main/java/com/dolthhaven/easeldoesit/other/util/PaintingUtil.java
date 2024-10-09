@@ -1,6 +1,5 @@
 package com.dolthhaven.easeldoesit.other.util;
 
-import com.dolthhaven.easeldoesit.data.server.tags.EaselModTags;
 import net.minecraft.core.Holder;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
@@ -15,7 +14,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 

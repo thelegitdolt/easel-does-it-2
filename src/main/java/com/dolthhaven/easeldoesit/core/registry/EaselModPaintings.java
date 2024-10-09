@@ -19,5 +19,4 @@ public class EaselModPaintings {
     private static RegistryObject<PaintingVariant> register(String name, int width, int height) {
         return PAINTING_VARIANTS.register(name, () -> new PaintingVariant(width, height));
     }
-
 }
